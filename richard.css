@@ -1,0 +1,124 @@
+
+ .body{
+   background-color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .container{
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color:rgb(242, 247, 249);
+ }
+ .container{
+   border: 300px;
+   padding-left:  40px;
+   padding-right: 40px;
+   padding-top: 10px;
+   padding-bottom: 270px;
+   margin:auto
+ }
+#me{
+  background-color: rgba(255, 255, 255, 0.936);
+  padding: 10px 50px;
+  border-radius: 20px;
+  float: right;
+}
+.try{
+  float: right;
+  box-shadow:5px;
+}
+.image{
+  margin-top: 100px;
+}
+.fam{
+  padding-top: 100px;
+  margin-top: 50px;
+  
+}
+.get{
+  background-color: deeppink;
+  color: white;
+  padding:1px;
+  margin-right: 1050px;
+  margin-top: 50px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgb(102, 101, 101), 0px 0px 5px rgb(105, 101, 101);
+}
+.grow{
+  margin: 100px;
+  border: 2px rgb(199, 195, 195);
+}
+.fans{
+  width: 800px;
+  margin-right: 500px;
+}
+h1{
+  word-spacing: 5px;
+}
+.grow div{type(box-1);
+  border: 1px rgb(246, 243, 243) solid;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(116, 112, 112), 0px 0px 5px rgb(138, 134, 134);
+}
+.left{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 50px;
+}
+.edit{
+  padding-top: 90px;
+}
+.footer{
+  background-color: hsl(192, 100%, 9%);
+  height: 500px;
+  width: 100%;
+  color: #ffff;
+  z-index: -1;
+  position: absolute;
+  margin-top: 100px;
+
+}
+.logo-2 img{
+  filter: brightness(0) invert(2);
+}
+ul{
+  list-style: none;
+}
+.logo-2{
+  display: flex;
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  
+}
+.block ul{
+  display: flex;
+  justify-content: space-between;
+}
+.block li{
+  margin-left: 20px;
+}
+.to{
+  height: 180px;
+  width: 750px;
+  box-shadow: 0px 0px 5px rgb(102, 101, 101), 0px 0px 5px rgb(105, 101, 101);
+  border-radius: 15px;
+  z-index: 0;
+  position: relative;
+  margin-left: 25%;
+  background-color: #ffff;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+.zee{
+  background-color: deeppink;
+  color:white;
+  margin: 10px 140px;
+  padding: 5px 0px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.zee  div:hover{
+  background-color: rgb(245, 147, 163);
+}
